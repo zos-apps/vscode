@@ -21,7 +21,27 @@
         "height": 800
       },
       "resizable": true
-    }
+    },
+    "about": "Powerful source code editor with extensions support.",
+    "help": [
+      "Open folder to start",
+      "Use Cmd+P for files",
+      "Install extensions"
+    ],
+    "docs": "https://zos-apps.github.io/vscode",
+    "site": "https://github.com/zos-apps/vscode",
+    "shortcuts": [
+      "Cmd+P Quick open",
+      "Cmd+Shift+P Command palette",
+      "Cmd+B Toggle sidebar"
+    ],
+    "features": [
+      "Syntax highlighting",
+      "IntelliSense",
+      "Debugging",
+      "Git integration",
+      "Extensions"
+    ]
   },
   "scripts": {
     "build": "tsup",
@@ -54,5 +74,13 @@
     "vscode",
     "macos",
     "desktop"
-  ]
+  ],
+  "funding": {
+    "type": "github",
+    "url": "https://github.com/sponsors/zos-apps"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  }
 }

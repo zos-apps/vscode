@@ -1,55 +1,82 @@
-# 💻 VS Code
+# VS Code
 
-[![Version](https://img.shields.io/badge/version-1.0.0-blue.svg)](https://github.com/zos-apps/vscode/releases)
-[![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
-[![Docs](https://img.shields.io/badge/docs-online-purple.svg)](https://zos-apps.github.io/vscode)
+💻 Powerful source code editor with extensions support.
 
-> Code editor
+[![CI](https://github.com/zos-apps/vscode/actions/workflows/ci.yml/badge.svg)](https://github.com/zos-apps/vscode/actions/workflows/ci.yml)
+[![npm version](https://img.shields.io/npm/v/@zos-apps/vscode.svg)](https://www.npmjs.com/package/@zos-apps/vscode)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-**[Documentation](https://zos-apps.github.io/vscode)** • **[App Store](https://zos-apps.github.io/app-store)** • **[All Apps](https://github.com/zos-apps)**
+## About
 
-## Installation
-
-```bash
-npm install github:zos-apps/vscode
-```
-
-Or install via the [zOS App Store](https://zos-apps.github.io/app-store).
-
-## Usage
-
-```tsx
-import VSCode from '@zos-apps/vscode';
-
-function App() {
-  return <VSCode />;
-}
-```
+Powerful source code editor with extensions support.
 
 ## Features
 
-- Native zOS window integration
-- Dark mode support
+- Syntax highlighting
+- IntelliSense
+- Debugging
+- Git integration
+- Extensions
 
-- Context menu actions
-- Menu bar integration
+## Installation
 
-## Category
+### From App Store
+Open the **App Store** in zOS and search for "VS Code".
 
-**Creative**
+### Via npm
+```bash
+npm install @zos-apps/vscode
+```
 
-## Permissions
+## Usage
 
-- `network`
-- `storage.local`
+- Open folder to start
+- Use Cmd+P for files
+- Install extensions
 
-## Links
+## Keyboard Shortcuts
 
-- [Documentation](https://zos-apps.github.io/vscode)
-- [GitHub Repository](https://github.com/zos-apps/vscode)
-- [Report Issues](https://github.com/zos-apps/vscode/issues)
-- [All zOS Apps](https://github.com/zos-apps)
+| Shortcut | Action |
+|----------|--------|
+| `Cmd+P` | Quick open |
+| `Cmd+Shift+P` | Command palette |
+| `Cmd+B` | Toggle sidebar |
+
+
+## Development
+
+```bash
+# Install dependencies
+npm install
+
+# Start development server
+npm run dev
+
+# Build for production
+npm run build
+```
+
+## Documentation
+
+- [User Guide](https://zos-apps.github.io/vscode)
+- [API Reference](https://zos-apps.github.io/vscode/api)
+- [Changelog](https://github.com/zos-apps/vscode/releases)
+
+## Contributing
+
+Contributions are welcome! Please read our [Contributing Guide](https://github.com/zos-apps/vscode/blob/main/CONTRIBUTING.md) first.
 
 ## License
 
 MIT © [Hanzo AI](https://hanzo.ai)
+
+---
+
+<p align="center">
+  <a href="https://hanzo.ai">
+    <img src="https://hanzo.ai/logo.svg" alt="Hanzo AI" width="100">
+  </a>
+</p>
+<p align="center">
+  Built with ❤️ by <a href="https://hanzo.ai">Hanzo AI</a>
+</p>
